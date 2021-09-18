@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>messager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+    <script src="https://kit.fontawesome.com/57ec84019d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero">
+        <form action="https://formspree.io/f/xrgrjgee" method="POST">
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="Surname" name="Surname" required>
+                    <label for="name"> Surname</label>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email"><i class="fas fa-envelope"></i> Email Id</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8" name="message" required></textarea>
+                <label for="message"><i class="fas fa-comments"></i> Your Message</label>
+            </div>
+            <button type="submit"> SUBMIT <i class="fas fa-paper-plane"></i> </button>
+        </form>
+    </div>
+    
+</body>
+</html>
