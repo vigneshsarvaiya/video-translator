@@ -582,7 +582,7 @@ def function(file, selected_language):
 
     return video_file
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/", methods=["GET","POST"])
 def upload_file():
 
     if request.method == 'POST':
@@ -624,4 +624,4 @@ def contact():
     return render_template('contact.html')
 
 if __name__== "__main__":
-    app.run(debug=True, port=8000)
+    app.run(debug=True, port=5000)
