@@ -6,7 +6,6 @@ import speech_recognition as spr
 from googletrans import Translator
 from gtts import gTTS
 import os
-from moviepy.editor import *
 from pydub import silence, AudioSegment
 
 app = Flask(__name__,template_folder='templates')
