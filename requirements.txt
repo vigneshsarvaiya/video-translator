@@ -15,7 +15,6 @@ decorator==4.4.2
 defusedxml==0.7.1
 distlib==0.3.2
 entrypoints==0.3
-ffmpeg==1.4
 filelock==3.0.12
 Flask==2.0.1
 Flask-gTTS==0.18
@@ -34,8 +33,6 @@ httpcore==0.9.1
 httpx==0.13.3
 hyperframe==5.2.0
 idna==2.10
-imageio==2.4.1
-imageio-ffmpeg==0.4.4
 ipykernel==5.5.5
 ipython==7.24.1
 ipython-genutils==0.2.0
