@@ -7,7 +7,6 @@ from googletrans import Translator
 from gtts import gTTS
 import os
 import imageio
-imageio.plugins.ffmpeg.download()
 from moviepy.editor import *
 from pydub import silence, AudioSegment
 
