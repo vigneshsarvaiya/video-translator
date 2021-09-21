@@ -6,7 +6,6 @@ import speech_recognition as spr
 from googletrans import Translator
 from gtts import gTTS
 import os
-import imageio
 from moviepy.editor import *
 from pydub import silence, AudioSegment
 
